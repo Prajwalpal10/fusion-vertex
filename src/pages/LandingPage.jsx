@@ -5,6 +5,7 @@ import Services from '../component/Service'
 import MarketNews from '../component/MarketNews'
 import Navbar from '../component/Navbar'
 import Footer from '../component/Footer'
+import ContactForm from '../component/ContactForm'
 
 function LandingPage() {
   return (
@@ -21,6 +22,9 @@ function LandingPage() {
 
      <div id="market">
          <MarketNews/>
+    </div>
+    <div id="contact">
+      <ContactForm/>
     </div>
 
     <Footer/>

@@ -6,6 +6,7 @@ module.exports = {
         float: "float 3s ease-in-out infinite",
         glow: "glowEffect 1.5s infinite",
         zoom: "zoomInOut 2s infinite",
+        fadein: 'fadeIn 0.5s ease-in-out',
       },
       keyframes: {
         float: {
@@ -19,6 +20,10 @@ module.exports = {
         zoomInOut: {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.1)" },
+        },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
         },
       },
     },
